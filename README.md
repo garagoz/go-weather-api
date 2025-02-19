@@ -1,6 +1,9 @@
 # go-weather-api
 The weather api using golang
 
-how to run: go run .
+Run it: go run .
 
+Build it: GOOS=linux GOARCH=amd64 go build -o go-weather-app
 Test it: curl http://localhost:8080/weather/Ashgabat
+
+
