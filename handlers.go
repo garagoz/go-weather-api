@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
+
+	"github.com/gorilla/mux"
 )
 
 func getWeatherHandler(w http.ResponseWriter, r *http.Request, apiKey string) {
