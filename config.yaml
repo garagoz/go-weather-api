@@ -1,0 +1,2 @@
+open_weather_api_key: YOUR_OPENWEATHER_API_KEY  # Replace with your API key
+port: ":8080"
